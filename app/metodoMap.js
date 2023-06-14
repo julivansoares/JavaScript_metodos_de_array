@@ -13,5 +13,3 @@ livrosComDesconto= livros.map((livro)=>{
    return livrosComDesconto
 }
 
-
-aplicarDesconto({titulo:'julivan'})
