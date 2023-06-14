@@ -10,8 +10,9 @@ async function getBuscarLivrosDaAPI(){ //  como é uma requisição utilizo o as
     livros= await res.json() // coloco agora os dados dentro do meu array
 
     let livrosComDesconto = aplicarDesconto(livros)
-
+   
     exibirOsLivrosNaTela(livrosComDesconto)
+    
 }
 
 
